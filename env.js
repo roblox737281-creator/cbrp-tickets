@@ -11,7 +11,6 @@ if (fs.existsSync(rootEnvPath)) {
 
 const env = {
   discordToken: String(process.env.DISCORD_TOKEN || '').trim(),
-  erlcServerKey: String(process.env.ERLC_API_KEY || '').trim(),
   melonlyApiKey: String(process.env.MELONLY_API_KEY || '').trim(),
   dockApiKey: String(process.env.DOCK_API_KEY || '').trim(),
   mongoUri: String(process.env.MONGODB_URI || '').trim(),
