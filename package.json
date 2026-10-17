@@ -1,0 +1,22 @@
+{
+  "name": "modular-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node -e \"console.log('No build step required for the pure JS runtime.')\"",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "mongodb": "^6.19.0",
+    "noblox.js": "^9.0.0",
+    "sharp": "^0.35.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
